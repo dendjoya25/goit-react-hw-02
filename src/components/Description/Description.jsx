@@ -3,9 +3,9 @@ import s from "./Description.module.css";
 
 const Description = () => {
   return (
-    <div className={s.pageHeader}>
-      <h1 className={s.pageTitle}>Sip Happens Café</h1>
-      <p className={s.pageDescription}>
+    <div>
+      <h1 className={s.title}>Sip Happens Café</h1>
+      <p className={s.description}>
         Please leave your feedback about our service by selecting one of the
         options below.
       </p>

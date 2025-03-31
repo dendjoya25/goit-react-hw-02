@@ -1,0 +1,35 @@
+.btnsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.chooseBtns {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  background-color: aquamarine;
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn:hover {
+  background-color: rgb(37, 255, 179);
+}
+.resetBtn {
+  background-color: rgb(255, 106, 106);
+  border: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.resetBtn:hover {
+  background-color: rgb(252, 56, 56);
+}

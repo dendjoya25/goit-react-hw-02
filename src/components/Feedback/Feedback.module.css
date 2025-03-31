@@ -1,0 +1,14 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+  align-items: center;
+}
+.listItem {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: rgb(224, 224, 224);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
